@@ -1,0 +1,19 @@
+##Issue
+
+Multiple support tickets were submitted regarding unsuccessful customer payments.
+
+##Investigation
+
+Queried the payments table to identify transactions with a FAILED payment status and reviewed the associated order records.
+
+##Root Cause
+
+Several payment records were marked as FAILED, preventing successful transaction processing and order completion.
+
+##Resolution
+
+Identified affected orders and flagged transactions for payment reprocessing.
+
+##Preventive Action
+
+Implement automated monitoring and alerting for failed payment transactions to reduce response time and improve customer experience.
