@@ -1,0 +1,19 @@
+## Issue
+
+Several orders were not linked to valid customer records, causing data integrity concerns.
+
+## Investigation
+
+Performed a LEFT JOIN between orders and customers to identify orphaned orders without corresponding customer records.
+
+## Root Cause
+
+Orders referenced customer IDs that did not exist in the customer table.
+
+## Resolution
+
+Identified affected orders and recommended correction of invalid customer references.
+
+## Preventive Action
+
+Enforce referential integrity through foreign key constraints and validation checks during data entry.
