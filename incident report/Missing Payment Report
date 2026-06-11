@@ -1,0 +1,14 @@
+## Issue
+Several orders were found without corresponding payment records.
+
+## Investigation
+Performed a LEFT JOIN between orders and payments to identify orders lacking associated payment transactions.
+
+## Root Cause
+Order records existed without matching payment records, resulting in incomplete transaction data.
+
+## Resolution
+Identified affected orders and recommended payment verification and reconciliation procedures.
+
+## Preventive Action
+Implement automated reconciliation checks to ensure all completed orders have associated payment records.
