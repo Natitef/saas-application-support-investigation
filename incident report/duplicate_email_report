@@ -1,0 +1,14 @@
+## Issue
+Customer records were identified with duplicate email addresses, creating potential account management and communication issues.
+
+## Investigation
+Queried customer records and grouped results by email address to identify duplicate values.
+
+## Root Cause
+Multiple customer accounts were associated with the same email address.
+
+## Resolution
+Identified affected customer records and recommended account review and data cleanup procedures.
+
+## Preventive Action
+Implement unique constraints on email fields and validation checks during customer registration.
