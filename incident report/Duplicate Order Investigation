@@ -1,0 +1,19 @@
+## Issue
+
+Customers reported duplicate orders appearing within the application.
+
+## Investigation
+
+Analyzed order records and used aggregation queries to identify duplicate order IDs occurring multiple times within the orders table.
+
+## Root Cause
+
+Multiple records shared the same order ID, resulting in duplicate order entries.
+
+## Resolution
+
+Identified affected records and recommended deduplication procedures to remove duplicate entries.
+
+## Preventive Action
+
+Implement uniqueness constraints and validation checks during order creation to prevent duplicate records.
